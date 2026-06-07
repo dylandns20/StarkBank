@@ -5,6 +5,9 @@ import * as starkbank from 'starkbank';
 import { ITransferRequestBody } from "./interfaces/transfer.interface";
 import { IInvoiceRequest } from "./interfaces/invoice.interface";
 
+// TODO create sandbox workspace on Stark Bank
+// to configure the authentication
+// reference: https://starkbank.com/docs/api#sandbox
 const starkBankEnvironment = defineString('STARK_BANK_ENVIRONMENT', {
     default: "sandbox",
     description: "The environment to use for Stark Bank API calls. Can be 'sandbox' or 'production'."

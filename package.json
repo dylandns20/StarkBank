@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.17.0",
+    "joi": "^18.2.1",
+    "starkbank": "^2.40.0"
+  }
+}
